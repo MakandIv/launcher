@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+
 //Руна для алтаря
 recipes.remove(<bloodmagic:blood_rune>);
 
@@ -38,6 +39,7 @@ recipes.remove(<draconicevolution:wyvern_helm>);
 recipes.remove(<draconicevolution:wyvern_chest>);
 recipes.remove(<draconicevolution:wyvern_legs>);
 recipes.remove(<draconicevolution:wyvern_boots>);
+
 recipes.remove(<draconicevolution:wyvern_sword>);
 recipes.remove(<draconicevolution:wyvern_pick>);
 recipes.remove(<draconicevolution:wyvern_axe>);
@@ -60,6 +62,7 @@ recipes.addShaped(<draconicevolution:wyvern_boots>, [
 [<draconicevolution:draconium_ingot>, <draconicevolution:wyvern_core>, <draconicevolution:draconium_ingot>],
 [<draconicevolution:draconium_ingot>, <botania:terrasteelboots>, <draconicevolution:draconium_ingot>],
 [<draconicevolution:draconium_ingot>, <draconicevolution:wyvern_energy_core>, <draconicevolution:draconium_ingot>]]);
+
 recipes.addShaped(<draconicevolution:wyvern_sword>, [
 [null, <draconicevolution:wyvern_core>, null],
 [<draconicevolution:draconium_ingot>, <botania:terrasword>, <draconicevolution:draconium_ingot>],
