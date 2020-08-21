@@ -1,7 +1,6 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-import mods.immersiveengineering.ArcFurnace;
 import mods.thermalexpansion.RedstoneFurnace;
 import mods.thermalexpansion.InductionSmelter;
 import mods.jei.JEI;
@@ -14,10 +13,6 @@ recipes.removeShapeless(<draconicevolution:draconium_ingot> * 2, [<ore:oreDracon
 
 //Выпиливание крафтов ванильки (печь)
 furnace.remove(<draconicevolution:draconium_ingot>);
-
-//Дуговая печь (иммёрсив)
-mods.immersiveengineering.ArcFurnace.removeRecipe(<draconicevolution:draconium_ingot> * 2);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<draconicevolution:draconium_ingot>);
 
 //Красная печь (Термалка)
 mods.thermalexpansion.RedstoneFurnace.removeRecipe(<draconicevolution:draconium_ore>);
