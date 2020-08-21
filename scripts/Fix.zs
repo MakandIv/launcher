@@ -8,4 +8,4 @@ recipes.removeShaped(<minecraft:string>, [
 recipes.removeShapeless(<minecraft:string> * 2, [<ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]);
 recipes.addShapeless(<minecraft:string> * 2, [<ore:cropCotton>, <ore:cropCotton>, <ore:cropCotton>]);
 //семена из пшеницы
-recipes.addshapeless(<minecraft:wheat_seeds) * 3, [<minecraft:wheat>];
+recipes.addshapeless(<minecraft:wheat_seeds> * 3, [<minecraft:wheat>]);
