@@ -5,7 +5,7 @@ Inscriber.removeRecipe(<appliedenergistics2:material:18>);
 Inscriber.addRecipe(<appliedenergistics2:material:18>, <minecraft:gold_ingot>, true, <appliedenergistics2:material:15>);
 
 ###reinstall Logic Proccesor Recipe
-Inscriber.removeRecipe(<appliedenergistics2:material:18>);
+Inscriber.removeRecipe(<appliedenergistics2:material:22>);
 Inscriber.addRecipe(<appliedenergistics2:material:22>, <minecraft:redstone>, false, <appliedenergistics2:material:18>, <appliedenergistics2:material:20>);
 
 ###reinstall Calculation Proccesor Recipe
