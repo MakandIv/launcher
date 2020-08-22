@@ -2,7 +2,7 @@ import mods.appliedenergistics2.Inscriber;
 
 ###reinstall Printed Logic Ciruit Recipe
 Inscriber.removeRecipe(<appliedenergistics2:material:18>);
-Inscriber.addRecipe(<appliedenergistics2:material:18>, <minecraft:gold_ingot>,true, <appliedenergistics2:material:15>);
+Inscriber.addRecipe(<appliedenergistics2:material:18>, <minecraft:gold_ingot>, true, <appliedenergistics2:material:15>);
 
 ###reinstall Logic Proccesor Recipe
 Inscriber.removeRecipe(<appliedenergistics2:material:18>);
